@@ -5,12 +5,11 @@
 <div id="index-top" style="margin-top: 60px; text-align: center;" class="container">
   <div class="row">
     <div class="col-md-offset-2 col-md-8 col-sm-12">
-      <?php 
-      echo do_shortcode("[metaslider id=138]"); 
+      <?php
+      echo do_shortcode("[metaslider id=138]");
       ?>
     </div>
   </div>
-  
 </div>
 
 <div class="container">
@@ -50,6 +49,15 @@
     </div>
     <div class="center">
         <a href="?page_id=4" class="btn btn-default margin-top">フォトグラファー日記</a>
+    </div>
+  </div>
+</div>
+
+<!-- 金額設定 -->
+<div class="container">
+  <div class="row" style="padding: 20px 0; text-align: left;">
+    <div class="text-center">
+      <h1>撮影金額</h1>
     </div>
   </div>
 </div>
