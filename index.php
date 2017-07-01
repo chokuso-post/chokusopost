@@ -214,6 +214,7 @@
 
 
 
+
 <!-- 新着ニュースの部分 -->
 <div class="container" style="padding: 30px;">
   <div class="row">
