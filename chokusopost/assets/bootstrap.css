@@ -40,6 +40,7 @@ template {
 }
 
 html {
+  font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -304,6 +305,7 @@ html {
 }
 
 body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.428571429;
   color: #333333;
@@ -320,13 +322,13 @@ textarea {
 }
 
 a {
-  color: black;
+  color: #428bca;
   text-decoration: none;
 }
 
 a:hover,
 a:focus {
-  color: black;
+  color: #fc5c6c;
   text-decoration: underline;
 }
 
@@ -386,7 +388,7 @@ hr {
 }
 
 p {
-  margin: 0;
+  margin: 0 0 10px;
 }
 
 .lead {
@@ -479,6 +481,7 @@ h6,
 .h4,
 .h5,
 .h6 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -879,9 +882,8 @@ pre code {
 .col-lg-12 {
   position: relative;
   min-height: 1px;
-  /*邪魔な左右の空間を排除*/
-/*  padding-right: 15px;
-  padding-left: 15px;*/
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .col-xs-1,
@@ -2287,7 +2289,7 @@ fieldset[disabled] .btn {
 .btn-default {
   color: #333333;
   background-color: #ffffff;
-  border-color: #fc5c6c;
+  border-color: #cccccc;
 }
 
 .btn-default:hover,
@@ -4315,7 +4317,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar {
-  /*position: relative;*/
+  position: relative;
   min-height: 50px;
   margin-bottom: 20px;
   border: 1px solid transparent;
@@ -4487,8 +4489,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-brand {
   float: left;
   padding: 15px 15px;
-  /*font-sizeを18から30に変更しました。*/
-  font-size: 30px;
+  font-size: 18px;
   line-height: 20px;
 }
 
