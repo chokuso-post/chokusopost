@@ -5,12 +5,12 @@
   <script type="text/javascript">
 
   $(document).ready(function(){
-    $("#menu-btn").on('click', function(){
+    $(".menu-btn").on('click', function(){
           $("#menu").animate({
               "right" : 0
           }, 300)
       });
-    $("#close-btn").on('click', function(){
+    $(".close-btn").on('click', function(){
         $("#menu").animate({
             "right" : "-200px"
         })
@@ -35,6 +35,7 @@
   <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>">
   <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/responsive.css">
   <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/header.css">
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 
@@ -61,61 +62,60 @@
 <div class="overflow">
  <!-- ヘッダー -->
   <header>
-    <div class="container">
-      <div class="row">
-        <div id="header-left">
-          <a href="index.php"><img src="<?php echo get_template_directory_uri(); ?>/images/chokuso-logo-transparent.png" alt="logo" style="width: 55px; margin: 7px;"></a>
-        </div>
-        <div id="header-right" style="padding: 5px;">
-          <img id="menu-btn" style="width: 60px;" src="<?php echo get_template_directory_uri(); ?>/images/menu.png" alt="">
-        </div>
+    <div>
+      <div id="header-left">
+        <a href="index.php"><img id="top-logo" src="<?php echo get_template_directory_uri(); ?>/images/chokuso-logo-transparent.png" alt="logo"></a>
       </div>
+      <div id="header-right" style="padding: 5px;">
+        <p style="float: right;" class="menu-btn roman">Menu</p>
+        <a href="#" class="square_btn roman"></a>
+      </div>
+      <div style="clear: both;"></div>
     </div>
     
-
     <div id="menu">
-    <div class="container">
       <!-- 右の隠れメニューを閉じるボタン -->
-      <div class="row">
-        <div class="col-md-offset-1 col-md-10" style="text-align: center; margin-top: 15px; padding: 3px;">
-          <p style="color: black; font-size: 20px;" class="roman" id="close-btn">✕ Close</p>
+      <div id="top-menus">
+        <div class="top-menu" style="text-align: center; margin-top: 15px; padding: 3px;">
+          <p style="color: black; font-size: 20px;" class="roman close-btn">✕ Close</p>
         </div>
-        <div class="col-md-offset-1 col-md-10" style="text-align: center; margin-top: 15px; padding: 3px; border: 3px solid black; border-radius: 10px;">
+        <div class="top-menu" style="text-align: center; margin-top: 15px; padding: 3px; border: 3px solid black; border-radius: 10px;">
           <p class="roman yellow">Application</p>
-          <p style="font-size: 20px;" id="close-btn"><a href="" title="" style="color: black;">撮影お申込み</a></p>
+          <p style="font-size: 20px;" class="close-btn"><a href="" title="" style="color: black;">撮影お申込み</a></p>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-12" style="text-align: center;">
-          <div style="border-bottom: 1px black solid; margin: 15px 0;">
-            <p class="roman yellow">Top</p>
-            <a href="" title="" style="font-size: 15px;"><p>トップ</p></a>
-          </div>
-          <div style="border-bottom: 1px black solid; margin: 15px 0;">
-            <p class="roman yellow">Services</p>
-            <a href="" title="" style="font-size: 15px;"><p>サービス</p></a>
-          </div>
-          <div style="border-bottom: 1px black solid; margin: 15px 0;">
-            <p class="roman yellow">Flow ＆ Price</p>
-            <a href="" title="" style="font-size: 15px;"><p>撮影の流れ・料金</p></a>
-          </div>
-          <div style="border-bottom: 1px black solid; margin: 15px 0;">
-            <p class="roman yellow">Gallery</p>
-            <a href="" title="" style="font-size: 15px;"><p>ギャラリー</p></a>
-          </div>
-          <div style="border-bottom: 1px black solid; margin: 15px 0;">
-            <p class="roman yellow">Photographers</p>
-            <a href="" title="" style="font-size: 15px;"><p>フォトグラファー</p></a>
-          </div>
-          <div style="border-bottom: 1px black solid; margin: 15px 0;">
-            <p class="roman yellow">Chokusoposts</p>
-            <a href="" title="" style="font-size: 15px;"><p>直想ポスト</p></a>
-          </div>
-
+      <div id="main-menus">
+        <div class="main-menu" style="border-bottom: 1px black solid; margin: 15px 0;">
+          <p class="roman yellow">Top</p>
+          <a href="" title="" style="font-size: 15px;"><p>トップ</p></a>
+        </div>
+        <div class="main-menu" style="border-bottom: 1px black solid; margin: 15px 0;">
+          <p class="roman yellow">Services</p>
+          <a href="" title="" style="font-size: 15px;"><p>サービス</p></a>
+        </div>
+        <div class="main-menu" style="border-bottom: 1px black solid; margin: 15px 0;">
+          <p class="roman yellow">Flow ＆ Price</p>
+          <a href="" title="" style="font-size: 15px;"><p>撮影の流れ・料金</p></a>
+        </div>
+        <div class="main-menu" style="border-bottom: 1px black solid; margin: 15px 0;">
+          <p class="roman yellow">Gallery</p>
+          <a href="" title="" style="font-size: 15px;"><p>ギャラリー</p></a>
+        </div>
+        <div class="main-menu" style="border-bottom: 1px black solid; margin: 15px 0;">
+          <p class="roman yellow">Photographers</p>
+          <a href="" title="" style="font-size: 15px;"><p>フォトグラファー</p></a>
+        </div>
+        <div class="main-menu" style="border-bottom: 1px black solid; margin: 15px 0;">
+          <p class="roman yellow">Chokusoposts</p>
+          <a href="" title="" style="font-size: 15px;"><p>直想ポスト</p></a>
         </div>
       </div>
-    </div>
-
+      <div class="top-menu" style="text-align: center; margin-top: 15px; padding: 3px;">
+        <p style="color: black; font-size: 20px;" class="roman close-btn">✕ Close</p>
+      </div>
+      <a href="#" class="fl_tw2">
+        <i class="fa fa-twitter"></i> <span>Follow Me</span>
+      </a>
     </div>
   </header>
 

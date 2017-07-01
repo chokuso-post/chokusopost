@@ -60,51 +60,6 @@ a :hover{
 
 /*共通css終わり*/
 
-
-
-
-/*header*/
- header {
-  background-color: rgba(255, 255, 255, 0.7);
-  position: fixed;
-  top: 0;
-  height: 70px;
-  width: 100%;
-  z-index: 100;
-  border-bottom: 2px #dab145 solid;
- }
-
- #header-left {
-  float: left;
- }
-
- #header-right {
-  float: right;
- }
-
-
- #menu {
-  background-color: white;
-  height: 700px;
-  width: 200px;
-  position: absolute;
-  right: -200px;
-  z-index: 300;
-  top: 0;
- }
-
-#menu-open {
-  background-color: black;
-  height: 700px;
-  width: 200px;
-  position: absolute;
-  right: 0;
-  z-index: 300;
-  top: 0;
- }
- /*header おわり*/
-
-
  /*index.php*/
 #top-image {
   width: 100%;
