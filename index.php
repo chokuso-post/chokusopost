@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 
+<<<<<<< HEAD
   <div id="top-image">
     <div class="container">
       <div class="row" style="margin-top: 220px;">
@@ -10,9 +11,18 @@
           <p style="font-size: 20px; padding-top: 33px; color: white;">直想便は「孫 ✕ 祖父母」にフォーカスした<br>フォトグラファー派遣サービスです。<br>ただ撮るだけではなく、<br>想い、想われ、<br>想い合う時間を提供します。</p>
         </div>
       </div>
+=======
+
+
+<div id="index-top" style="margin-top: 60px; text-align: center;" class="container">
+  <div class="row">
+    <div class="col-md-offset-2 col-md-8 col-sm-12">
+      <?php
+      echo do_shortcode("[metaslider id=138]");
+      ?>
+>>>>>>> 1a3696e619ab8cab5419220f65b9b28580ee343d
     </div>
   </div>
-  
 </div>
 
 <div class="container">
@@ -195,6 +205,19 @@
   </div>
 </div>
 
+<<<<<<< HEAD
+=======
+<!-- 金額設定 -->
+<div class="container">
+  <div class="row" style="padding: 20px 0; text-align: left;">
+    <div class="text-center">
+      <h1>撮影金額</h1>
+    </div>
+  </div>
+</div>
+
+<!-- 新着ニュースの部分 -->
+>>>>>>> 1a3696e619ab8cab5419220f65b9b28580ee343d
 
 <!-- 新着ニュースの部分 -->
 <div class="container" style="padding: 30px;">
