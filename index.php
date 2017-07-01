@@ -53,14 +53,7 @@
   </div>
 </div>
 
-<!-- 金額設定 -->
-<div class="container">
-  <div class="row" style="padding: 20px 0; text-align: left;">
-    <div class="text-center">
-      <h1>撮影金額</h1>
-    </div>
-  </div>
-</div>
+
 
 <!-- 新着ニュースの部分 -->
 
