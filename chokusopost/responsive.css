@@ -1,0 +1,316 @@
+@media screen and (max-width: 800px) {
+    #wrapper{
+    text-align: center;
+    margin-left:1px;
+}
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+    .member{
+        width: 50%;
+        margin-bottom: 50px;
+    }
+    .photographer-profile{
+        width: 50%;
+        margin-bottom: 50px;
+    }
+
+  .examples h2{
+    font-size: 20px;
+    color: #fc5c6c;
+    text-align: center;
+  }  
+
+  .sidebar{
+  display:none;
+}
+
+.header-responsive{
+  display: block;
+  width: 100%;
+}
+  footer {
+    text-align: center;
+  }
+
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
+  .menu-icon-responsive{
+    display: block;
+}
+    p{
+        font-size: 15px;
+    }
+     #menu-icon {
+    display: block;
+  }
+    #ham-menu {
+    background-color: white; /*メニュー背景色*/
+    box-sizing: border-box;
+    height: 100%;
+    padding: 10px 40px; /*メニュー内左右上下余白*/
+    position: fixed;
+    right: -300px; /*メニュー横幅 width と合わせる*/
+    top: 0;
+    transition: transform 0.3s linear 0s; /*0.3s はアニメーションにかかる時間*/
+    width: 300px; /*メニュー横幅*/
+    z-index: 1000;
+}
+
+#menu-background {
+    background-color: #333; /*黒背景*/
+    display: block;
+    height: 100%;
+    opacity: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transition: all 0.3s linear 0s; /*0.3s はアニメーションにかかる時間*/
+    width: 100%;
+    z-index: -1;
+}
+
+#menu-icon {
+    background-color: rgba(250,250,250); /*アイコン部分背景色*/
+    border-radius: 0 0 0 10px; /*左下角丸*/
+    color: #fc5c6c; /*アイコン（フォント）色*/
+    cursor: pointer;
+    display: block;
+    font-size: 50px; /*アイコン（フォント）サイズ*/
+    height: 50px; /*アイコン縦高さ*/
+    line-height: 50px; /*縦位置中央化*/
+    position: fixed;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 50px; /*アイコン横幅*/
+    transition: all 0.3s linear 0s; /*0.3s はアニメーションにかかる時間*/
+    z-index: 1000;
+}
+
+#menu-cb {
+    display: none; /*チェックボックス本体は消しておく*/
+}
+
+#menu-cb:checked ~ #ham-menu,
+#menu-cb:checked ~ #menu-icon {
+    transform: translate(-300px); /*メニュー本体横幅 width と合わせる*/
+}
+
+#menu-cb:checked ~ #menu-background {
+    opacity: 0.5;
+    z-index: 999;
+}
+
+#menu-cb {
+    display: none; /*チェックボックス本体は消しておく*/
+}
+
+#menu-cb:checked ~ #ham-menu,
+#menu-cb:checked ~ #menu-icon {
+    transform: translate(-300px); /*メニュー本体横幅 width と合わせる*/
+}
+
+#menu-cb:checked ~ #menu-background {
+    opacity: 0.5;
+    z-index: 999;
+}
+
+ .header-right {
+    display: none;
+  }
+    
+#menu-icon{
+    display: block;}
+    
+    .image img{
+    border-radius: 200px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+}
+.text-chokusopost{
+    width:100%;
+    height:100%;
+}
+.about-text{
+    width:100%;
+    height:auto;
+}
+#logo-topo img {
+  margin: 7% 0 4% 0;
+}
+#topo{
+  display: block;
+}
+}
+/* スマホ向けレイアウト */
+@media screen and ( max-width:479px ) {
+  . {
+    width: 100%;
+  }
+   
+ 
+  .btn {
+    width: 90%;
+  }
+  
+ 
+  
+  .top-wrapper h1 {
+    font-size: 24px;
+  }
+
+  .top-wrapper p {
+    font-size: 14px;
+  }
+    .members ul li{
+        width: 100%;
+    }
+    .header-right {
+    display: none;
+  }
+   
+  .menu-box{
+    height:600px;
+    overflow: auto;
+}
+    
+    .voices-top{
+        width:100%;
+    }
+.info-wrapper{
+    height:auto;
+    width: 100%;
+}
+.info-head{
+font-size:10px;
+}
+.top-chokusopost{
+    height:400px;
+    padding-top: 150px;
+}
+    .grids{
+        text-align: center;
+    }
+.grid{
+    width: 48%;
+}
+.flow-explain{
+    width:100%;
+}    
+.container-snapchokuso{
+    width:100%;
+}
+.sidebar{
+  width:100%;
+}
+
+.flows{
+    width:100%;
+    height:100%;
+}
+
+.slide-topics{
+  display: block;
+}
+    .widget-instagram{
+        display:none;
+    }    
+   @-webkit-keyframes rolling1 {
+  0% { -webkit-transform: translateX(0) rotate(0deg); }
+  100% { -webkit-transform: translateX(340px) rotate(1440deg); }
+}
+@-webkit-keyframes rolling2 {
+  0% { -webkit-transform: translateX(0) rotate(0deg); }
+  50% { -webkit-transform: translateX(180px) rotate(720deg); }
+  100% { -webkit-transform: translateX(340px) rotate(1440deg); }
+}
+@-webkit-keyframes rolling3 {
+  0% { -webkit-transform: translateX(0) rotate(0deg); }
+  10% { -webkit-transform: translateX(90px) rotate(360deg); }
+  30% { -webkit-transform: translateX(180px) rotate(720deg); }
+  60% { -webkit-transform: translateX(270px) rotate(1080deg); }
+  100% { -webkit-transform: translateX(340px) rotate(1440deg); }
+}
+ 
+@keyframes rolling1 {
+  0% { transform: translateX(0) rotate(0deg); }
+  100% { transform: translateX(340px) rotate(1440deg); }
+}
+@keyframes rolling2 {
+  0% { transform: translateX(0) rotate(0deg); }
+  50% { transform: translateX(180px) rotate(720deg); }
+  100% { transform: translateX(340px) rotate(1440deg); }
+}
+@keyframes rolling3 {
+  0% { transform: translateX(0) rotate(0deg); }
+  10% { transform: translateX(90px) rotate(360deg); }
+  30% { transform: translateX(180px) rotate(720deg); }
+  60% { transform: translateX(270px) rotate(1080deg); }
+  100% { transform: translateX(340px) rotate(1440deg); }
+}
+.top-services {
+  padding: 300px 0 100px 0px;
+  background-image: url(images/services-top-smartphone.png);
+  background-size: cover;
+  color: #fc5c6c;
+  text-align: left;
+　width:100%;
+　max-width: 100%;
+　height: 300px;
+  font-size: 20px;
+}
+    .services{
+    float:left;
+    width:100%;
+    height:100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 0px;
+}
+    .about-us{
+    padding:10px 10px;
+    width:100%;
+    float:none;
+}
+    .member {
+  width: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.none{
+  display: none;
+}
+
+.new-pictures{
+  height:300px;
+}
+.footer-list{
+  display: none;
+}
+
+.footer-logo{
+  float: none;
+  width:100%;
+  padding-left:20px;
+  padding-top: 20px;
+}
+
+.no{
+  display: block;
+}
+
+.top-about-us{
+  height: 500px;
+  padding: auto;
+}
+
+
+}
+
