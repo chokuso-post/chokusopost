@@ -400,6 +400,7 @@ height:800px
 .member {
   float: left;
   width: 50%;
+  height: 50%;
   padding-right: 10px;
   padding-left: 10px;
 }
